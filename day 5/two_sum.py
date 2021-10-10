@@ -1,11 +1,14 @@
-def twoSum(self, nums, target):
-        cache = {}
-        
-        for i in range(len(nums)):
-            a = nums[i]
-			#checks if the number is one of the needed ones
-            if nums[i] in cache:
-				#if it is then that is the solution
-                return [cache[nums[i]], i]
-			#if it is not we add the new one to the cache
-            cache[target - a] = i
+class Solution:
+        # def twoSum(self, nums: List[int], target: int) -> List[int]:
+        def twoSum(nums, target):
+            checked = {}
+            for k,v in enumerate(nums):
+                othervalue = target - nums[k]
+                print(f'k = {k} v = {v} and other value = {othervalue}')
+                if othervalue in checked: 
+                    return [k, checked[othervalue]]
+                else: 
+                    checked[v] = k
+        nums = [2,3,4,6]
+        target = 5
+        print(twoSum(nums, target))
