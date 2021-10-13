@@ -16,3 +16,4 @@
 
 # Books
 * Hands on Data Structures and Algorithms with Python by Dr. Basant Agarwal
+* Competitive Programming in Python by Christophe Durr
