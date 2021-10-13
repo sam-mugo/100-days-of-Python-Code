@@ -14,3 +14,5 @@
 
 > The beginning of the next day of code should start with redoing the previous days' problems with all their different solutions on paper.
 
+# Books
+* Hands on Data Structures and Algorithms with Python by Dr. Basant Agarwal
