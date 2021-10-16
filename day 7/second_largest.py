@@ -1,3 +1,4 @@
+#given a list find the second lagest number
 if __name__ == '__main__':
     n = int(input())
     arr = map(int, input().split())
